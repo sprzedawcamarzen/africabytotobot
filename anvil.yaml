@@ -43,9 +43,9 @@ exported_table_schema:
   name: feedback
   python_name: feedback
   server: full
-metadata: {}
-name: Feedback Form 1
-package_name: Feedback_Form_1
+metadata: {description: Africa by Toto Bot for bluesky, title: AfricaByTotoBot}
+name: AfricaByTotoBot
+package_name: AfricaByTotoBot
 renamed: true
 runtime_options:
   client_version: '3'
@@ -54,7 +54,7 @@ runtime_options:
   version: 2
 services:
 - client_config: {}
-  server_config: {}
+  server_config: {auto_create_missing_columns: false}
   source: /runtime/services/tables.yml
 - client_config: {}
   server_config: {}
